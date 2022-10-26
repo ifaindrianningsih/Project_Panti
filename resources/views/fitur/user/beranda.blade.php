@@ -10,7 +10,7 @@
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">PANTI ASUHAN<span> PUTRI ‘AISYIYAH </span></h2>
           <p class="animate__animated animate__fadeInUp">Panti Asuhan Putri ‘Aisyiyah Kel. Dinoyo Kec. Lowokwaru merupakan salah satu amal usaha dibawah organisasi Muhammadiyah yang dalam hal ini berada dibawah naungan  Pimpinan Daerah Muhammadiyah Kota Malang. Sementara dalam penyelenggaraan teknis berada dibawah Pimpinan  Daerah ‘Aisyiyah dan Pimpinan Cabang ‘Aisyiyah Lowokwaru </p>
-          <a href="#profil" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          <a href="{{url('/profil/sejarah')}}" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
 
@@ -103,7 +103,7 @@
             <p>
             Panti Asuhan Putri ‘Aisyiyah Malang berdiri karena belum ada panti asuhan putri di Kelurahan Dinoyo Kecamatan Lowokwaru. Begitu juga dinilai masih banyaknya anak yatim yang tidak tertampung dan tidak ada orangtua asuh yang menanggung, sehingga mereka tidak dapat melanjutkan sekolah. 
             </p>
-            <a href="#" class="btn-learn-more">Selengkapnya</a>
+            <a href="{{url('/profil/sejarah')}}"" class="btn-learn-more">Selengkapnya</a>
           </div>
         </div>
 
