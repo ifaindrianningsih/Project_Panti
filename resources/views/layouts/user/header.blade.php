@@ -1,5 +1,5 @@
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="fixed-top d-flex align-items-center ">
+  <div id="topbar" class="fixed-top d-flex align-items-center "  style="background: #0C62A6;" >
     <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope-fill"></i><a href="mailto:shintyarahma77@gmail.com">email panti</a>
@@ -25,10 +25,10 @@
           <li class="dropdown"><a href="{{url('/profil/sejarah')}}"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{{url('/profil/sejarah')}}">Sejarah</a></li>
-              <li><a href="#">Visi & Misi</a></li>
+              <li><a href="{{url('/profil/visi')}}">Visi & Misi</a></li>
               <li><a href="#">Tujuan</a></li>
               <li><a href="#">Kegiatan</a></li>
-              <li><a href="#">Struktur Kepengurusan</a></li>
+              <li><a href="{{url('/profil/struktur-kepengurusan')}}">Struktur Kepengurusan</a></li>
               {{-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>

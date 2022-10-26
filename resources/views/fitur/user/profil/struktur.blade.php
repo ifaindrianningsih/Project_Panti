@@ -1,29 +1,36 @@
 @extends('layouts.user.master')
- <!-- ======= Services Section ======= -->
+
+@section('content')
+  <!-- ======= Clients Section ======= -->
+  <section id="clients" class="clients">
+  </section><!-- End Clients Section -->
+ 
+
  <section id="services" class="services">
     <div class="container" data-aos="fade-up">
-
       <div class="section-title">
-        <h2>Services</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
+        <h2>Struktur Kepengurursan</h2>
+        <p>Panti Asuhan Putri ‘Aisyiyah Kel. Dinoyo Kec. Lowokwaru merupakan salah satu amal usaha dibawah organisasi Muhammadiyah yang dalam hal ini berada dibawah naungan  Pimpinan Daerah Muhammadiyah Kota Malang. Sementara dalam penyelenggaraan teknis berada dibawah Pimpinan  Daerah ‘Aisyiyah dan Pimpinan Cabang ‘Aisyiyah Lowokwaru  yang kemudian menerbitkan surat keputusan terkait dengan kepengurusan di Panti Asuhan Putri ‘Aisyiyah sebagai berikut</p>
+        <br><br><h4 class=""><a href="" class="text-center">Susunan Personalia Pengurus, Pengasuh, dan Karyawan Panti Asuhan Putri ‘Aisyiyah</a></h4>
+    </div>
 
       <div class="row">
-        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
           <div class="icon-box">
-            <i class="bi bi-card-checklist"></i>
-            <h4><a href="#">Lorem Ipsum</a></h4>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            {{-- <i class="bi bi-card-checklist"></i> --}}
+            <h4><a href="#">Penasehat dan Pelindung</a></h4>
+            <p>PDA Kota Malang
+                PCA Lowokwaru</p>
           </div>
         </div>
-        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
           <div class="icon-box">
-            <i class="bi bi-bar-chart"></i>
-            <h4><a href="#">Dolor Sitema</a></h4>
-            <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            {{-- <i class="bi bi-bar-chart"></i> --}}
+            <h4><a href="#">Kepala Panti</a></h4>
+            <p>Aning Rochania</p>
           </div>
         </div>
-        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="300">
+        {{-- <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="300">
           <div class="icon-box">
             <i class="bi bi-binoculars"></i>
             <h4><a href="#">Sed ut perspiciatis</a></h4>
@@ -50,11 +57,11 @@
             <h4><a href="#">Eiusmod Tempor</a></h4>
             <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
           </div>
-        </div>
+        </div> --}}
       </div>
 
     </div>
   </section><!-- End Services Section -->
  
-@section('content')
+
 @endsection
