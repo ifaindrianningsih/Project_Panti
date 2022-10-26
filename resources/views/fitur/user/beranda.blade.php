@@ -9,7 +9,7 @@
       <div class="carousel-item active">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">PANTI ASUHAN<span> PUTRI ‘AISYIYAH </span></h2>
-          <p class="animate__animated animate__fadeInUp">Gambaran Umum Panti</p>
+          <p class="animate__animated animate__fadeInUp">Panti Asuhan Putri ‘Aisyiyah Kel. Dinoyo Kec. Lowokwaru merupakan salah satu amal usaha dibawah organisasi Muhammadiyah yang dalam hal ini berada dibawah naungan  Pimpinan Daerah Muhammadiyah Kota Malang. Sementara dalam penyelenggaraan teknis berada dibawah Pimpinan  Daerah ‘Aisyiyah dan Pimpinan Cabang ‘Aisyiyah Lowokwaru </p>
           <a href="#profil" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div>
@@ -18,7 +18,7 @@
       {{-- <div class="carousel-item">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown">Nama Kegiatan</h2>
-          <p class="animate__animated animate__fadeInUp"> desjripsi singkat kegiatan</p>
+          <p class="animate__animated animate__fadeInUp"> deskripsi singkat kegiatan</p>
           <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
         </div>
       </div> --}}
@@ -93,7 +93,6 @@
 
         <div class="section-title">
           <h2>Tentang Kami</h2>
-          {{-- <p>Msuscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> --}}
         </div>
 
         <div class="row content">
@@ -102,7 +101,7 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-              Deskripsi umum panti 
+            Panti Asuhan Putri ‘Aisyiyah Malang berdiri karena belum ada panti asuhan putri di Kelurahan Dinoyo Kecamatan Lowokwaru. Begitu juga dinilai masih banyaknya anak yatim yang tidak tertampung dan tidak ada orangtua asuh yang menanggung, sehingga mereka tidak dapat melanjutkan sekolah. 
             </p>
             <a href="#" class="btn-learn-more">Selengkapnya</a>
           </div>
