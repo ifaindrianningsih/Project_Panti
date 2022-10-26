@@ -21,10 +21,10 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
-          <li class="dropdown"><a href="#"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href="{{url('/beranda')}}">Beranda</a></li>
+          <li class="dropdown"><a href="{{url('/profil/sejarah')}}"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Sejarah</a></li>
+              <li><a href="{{url('/profil/sejarah')}}">Sejarah</a></li>
               <li><a href="#">Visi & Misi</a></li>
               <li><a href="#">Tujuan</a></li>
               <li><a href="#">Kegiatan</a></li>

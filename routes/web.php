@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BerandaController;
+use App\Http\Controllers\SejarahController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,6 @@ Route::get('/', function () {
     return view('fitur.user.beranda');
 });
 Route::get('/beranda',[BerandaController::class, 'beranda']);
+Route::prefix('profil')->group(function () {
+    Route::get('/sejarah ',[SejarahController::class, 'sejarah']);
+});
