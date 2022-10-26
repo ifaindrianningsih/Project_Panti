@@ -25,8 +25,7 @@
           <li class="dropdown"><a href="{{url('/profil/sejarah')}}"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="{{url('/profil/sejarah')}}">Sejarah</a></li>
-              <li><a href="{{url('/profil/visi')}}">Visi & Misi</a></li>
-              <li><a href="#">Tujuan</a></li>
+              <li><a href="{{url('/profil/visi')}}">Visi, Misi & Tujuan</a></li>
               <li><a href="#">Kegiatan</a></li>
               <li><a href="{{url('/profil/struktur-kepengurusan')}}">Struktur Kepengurusan</a></li>
               {{-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
