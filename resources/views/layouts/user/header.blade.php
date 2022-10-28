@@ -42,7 +42,7 @@
           <li><a class="nav-link scrollto" href="#services">Galeri</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Kegiatan</a></li>
           <li><a class="nav-link scrollto" href="#team">Donasi</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pesan Kue</a></li>
+          <li><a class="nav-link scrollto" href="/produk">Pesan Kue</a></li>
           <li><a class="nav-link scrollto" href="#contact">Login</a></li>
          
         

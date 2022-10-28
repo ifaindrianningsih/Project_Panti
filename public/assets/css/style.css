@@ -496,6 +496,34 @@ h6 {
   transition: 0.3s;
 }
 
+
+#herokue {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  
+  background-size: cover;
+  position: relative;
+  margin-bottom: -90px;
+  z-index: 99;
+  transition: 0.3s;
+}
+
+
+#herokue:before {
+  content: "";
+  background: rgba(230, 233, 235, 0.9);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+
 #hero:before {
   content: "";
   background: rgba(6, 51, 90, 0.900);
@@ -505,6 +533,27 @@ h6 {
   left: 0;
   right: 0;
 }
+
+
+#herokue .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
 
 #hero .carousel-container {
   display: flex;
