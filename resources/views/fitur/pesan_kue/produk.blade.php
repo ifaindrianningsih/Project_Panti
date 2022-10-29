@@ -3,49 +3,33 @@
 @section('content')
 
 
-<section id="faq" class="faq section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="carousel-item active">
-       
+<section id="why-us" class="why-us">
         <div class="container">
-
-            <!-- <div class="section-title">
-                <h2>Produk Kue</h2>
-                <p>Berbagai macam produk kue yang kami sediakan</p>
-            </div> -->
-
-            
-           
-            <div class="row">
-                <p></p><p></p><p></p><p></p><p></p>
-                <div class="section-title">
-                    <h2>Produk Kue</h2>
-                    <p>Berbagai macam produk kue yang kami sediakan</p>
-                </div>
-                    @foreach($data as $d)
-                    <div class="col-lg-4" data-aos="fade-up">
-                        <div class="box">
-                        <h3>{{$d->nama}}</h3>
-                        <img src="{{$d->gambar}}" width="308" height="200">
-                        <h4>Rp. {{$d->harga}}</h4>
-
-                        </div>
+            <section id="about" class="about">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <p><p><p><p><p><p><p><p></p></p></p></p></p></p></p></p>
+                        <span>Produk</span>
+                        <h2>Produk</h2>
+                        <p>Berbagai macam produk kue kami sediakan</p>
                     </div>
-                    @endforeach
 
+                    <div class="row">
+                        @foreach($data as $d)
+                        <div class="col-lg-4" data-aos="fade-up">
+                            <div class="box">
+                                <span>{{$d->nama}}</span>
+                                <img src="{{$d->gambar}}" width="300" height="200">
+                                <h4>Rp. {{$d->harga}}</h4>
+                                <a href="#" class="btn btn-primary btn-sm">Keranjang</a>
+                                <a class="btn btn-warning btn-sm" href="{{ route('produk.show',$d->id) }}">Detail</a>
+                            </div>
+                        </div>
+                        @endforeach
+                    </div>
                 </div>
-                <div class="card-body">
-                    <a class="btn btn-warning" href="{{ route('produk.detail')}}"> Detail</a> 
-                    <a class="btn btn-success" href="{{ route('produk.keranjang')}}"> Keranjang</a> 
-                    <br></br>
-                </div>
+            </section>
+        </div>
+</section>
 
-            </div>
-            
-        </div>
-            </div>
-        </div>
-        </div>
-        </section>
-        </main><!-- End #main -->
   @endsection

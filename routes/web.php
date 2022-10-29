@@ -28,4 +28,6 @@ Route::prefix('profil')->group(function () {
     Route::get('/visi ',[VisiController::class, 'visi']);
 });
 
+Route::resource('produk', ProdukKueController::class);
 Route::get('/produk', [ProdukKueController::class, 'index']);
+Route::get('/produk/detail', [ProdukKueController::class, 'show']);

@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\produk;
+use App\Models\Produk;
+use DB;
 
 
 class ProdukKueController extends Controller
@@ -50,7 +51,10 @@ class ProdukKueController extends Controller
      */
     public function show($id)
     {
-        //
+        //menampilkan detail data siswa berdasarkan Id siswa
+        $produk = DB::table('produk')->where('id',$id)->first();
+        $title = 'Detail Produk';
+        return view('fitur.pesan_kue.detail', compact('produk', 'title'));
     }
 
     /**
