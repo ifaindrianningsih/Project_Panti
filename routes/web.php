@@ -6,6 +6,9 @@ use App\Http\Controllers\SejarahController;
 use App\Http\Controllers\StrukturController;
 use App\Http\Controllers\VisiController;
 use App\Http\Controllers\ProdukKueController;
+use App\Http\Controllers\KeranjangController;
+use App\Http\Controllers\Auth\LoginController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +34,14 @@ Route::prefix('profil')->group(function () {
 Route::resource('produk', ProdukKueController::class);
 Route::get('/produk', [ProdukKueController::class, 'index']);
 Route::get('/produk/detail', [ProdukKueController::class, 'show']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::post('\keranjang/{id}', [KeranjangController::class, 'index']);
+
+Route::post('\keranjang/{id}', [KeranjangController::class, 'pesan']);
+
+
+Route::get('/login_pesan_kue', [LoginController::class],'showLoginForm');

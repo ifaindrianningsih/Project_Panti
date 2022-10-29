@@ -43,7 +43,13 @@
           <li><a class="nav-link scrollto " href="#portfolio">Kegiatan</a></li>
           <li><a class="nav-link scrollto" href="#team">Donasi</a></li>
           <li><a class="nav-link scrollto " href="/produk">Pesan Kue</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Login</a></li>
+          <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+              <li><a href="{{url('/login')}}">Donatur</a></li>
+              <li><a href="{{url('/login_pesan_kue')}}">Pesan_Kue</a></li>
+              <li><a href="{{url('/login')}}">Admin</a></li>
+              
+            </ul>
          
         
         </ul>

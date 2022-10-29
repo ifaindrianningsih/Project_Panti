@@ -10,4 +10,10 @@ class Produk extends Model
     //
     use HasFactory;
     protected $table='produk';
+
+
+    public function pesanan_detail() 
+    {
+         return $this->hasMany('App\Models\PesananDetail','produk_id', 'id');
+    }
 }

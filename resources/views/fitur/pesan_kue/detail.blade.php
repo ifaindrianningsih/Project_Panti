@@ -24,9 +24,22 @@
                                 <p><p><p></p></p></p>
                                 <h3>Rp. {{$produk->harga}}</h3>
                                 <p></p>
-                                <p>Atur Jumlah : </p>
-                                <a href="{{url('/produk')}}" class="btn-learn-more">Keranjang</a>
+                            
+                                <tr>
+                                        <td>Jumlah Pesanan</td>
+                                        <td>:</td>
+                                        <td>
+                                             <form method="post" action="{{ url('\keranjang') }}/{{ $produk->id }}" >
+                                            @csrf
+                                                <input type="text" name="jumlah_pesan" class="form-control" required="">
+                                                <button type="submit" class="btn btn-primary mt-2"><i class="fa fa-shopping-cart"></i> Masukkan Keranjang</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+
+                              
                             </div>
+                            
                         </div>
                     </div>
                 </div>
