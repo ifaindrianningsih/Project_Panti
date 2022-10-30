@@ -1,5 +1,5 @@
   <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="fixed-top d-flex align-items-center "  style="background: #0C62A6;" >
+  <div id="topbar" class="fixed-top d-flex align-items-center "  style="background: #065fad;" >
     <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope-fill"></i><a href="mailto:shintyarahma77@gmail.com">email panti</a>
@@ -12,7 +12,7 @@
   </div>
   
   
-  <header id="header" class="fixed-top d-flex align-items-center ">
+  <header id="header" class="fixed-top d-flex align-items-center" style="background: #05579e;">
     <div class="container d-flex align-items-center justify-content-between">
 
       <h1 class="logo"><a href="{{url('/beranda')}}">PANTI ASUHAN PUTRI ‘AISYIYAH</a></h1>
@@ -42,7 +42,7 @@
           <li><a class="nav-link scrollto" href="#services">Galeri</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Kegiatan</a></li>
           <li><a class="nav-link scrollto" href="#team">Donasi</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pesan Kue</a></li>
+          <li><a class="nav-link scrollto " href="/produk">Pesan Kue</a></li>
           <li><a class="nav-link scrollto" href="#contact">Login</a></li>
          
         

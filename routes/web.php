@@ -5,6 +5,7 @@ use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\SejarahController;
 use App\Http\Controllers\StrukturController;
 use App\Http\Controllers\VisiController;
+use App\Http\Controllers\ProdukKueController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +27,7 @@ Route::prefix('profil')->group(function () {
     Route::get('/struktur-kepengurusan ',[StrukturController::class, 'struktur']);
     Route::get('/visi ',[VisiController::class, 'visi']);
 });
+
+Route::resource('produk', ProdukKueController::class);
+Route::get('/produk', [ProdukKueController::class, 'index']);
+Route::get('/produk/detail', [ProdukKueController::class, 'show']);
