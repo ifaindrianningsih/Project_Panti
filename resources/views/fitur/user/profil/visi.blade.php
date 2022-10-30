@@ -1,6 +1,8 @@
 @extends('layouts.user.master')
  
 @section('content')
+<section id="clients" class="clients">
+</section><!-- End Clients Section -->
 
 <!-- ======= Frequently Asked Questions Section ======= -->
 <section id="faq" class="faq section-bg">
